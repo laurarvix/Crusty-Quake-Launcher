@@ -13,7 +13,7 @@ namespace Doom_Loader
             InitializeComponent();
         }
 
-        private static bool boot = true; // Used for calling LoadPresets() in AppDataInit() to prevent a bug (I forgot what it was)
+        private static bool boot = true; // Used for calling LoadPresets() in AppDataInit() to prevent some odd bug
 
         private void ComplevelChanged(object sender, EventArgs e)
         {
