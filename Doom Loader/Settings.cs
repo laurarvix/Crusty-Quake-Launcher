@@ -34,7 +34,7 @@ namespace Doom_Loader
         }
 
         /// <summary>
-        /// Checks if the config file in use is either in Roaming AppData or in the CWD of CP1DL.
+        /// Checks if the config file in use is either in Roaming AppData or in the CWD of Minty Launcher.
         /// </summary>
         /// <returns>Full path of the used config.</returns>
         private static string CheckForWhichConfig()
@@ -43,7 +43,7 @@ namespace Doom_Loader
             if (File.Exists("mintyLauncher.PortableSettings"))
                 return "mintyLauncher.PortableSettings";
             // If no portable settings file is found in the CWD,
-            // return the settings file found in CP1DL's folder in the user's Roaming AppData folder.
+            // return the settings file found in Minty Launcher's folder in the user's Roaming AppData folder.
             else
                 return Environment.ExpandEnvironmentVariables("%appdata%\\MintyLauncher\\settings.txt");
         }
