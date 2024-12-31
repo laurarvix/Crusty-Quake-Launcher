@@ -9,6 +9,6 @@ https://drive.google.com/drive/u/1/folders/1WFhlLlC_Ka0N-Fk6tTlCKcxksYwFRNg4
 # Building
 No dependencies are required besides DiscordRichPresence from NuGet and its dependencies as well as WinForms and .NET 6.
 Open the solution in Visual Studio 2022.
-Create a `Resources.resx` file in the `Properties` folder with a key called `DiscordApi` and put in your own Discord application ID for its value.
+Create a `Resources.resx` file in the `Properties` folder with a key called `DiscordAPI` and put in your own Discord application ID for its value.
 
 Build the solution from VS2022 from there.
