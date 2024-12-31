@@ -3,7 +3,7 @@ A C# WinForms Doom launcher I made as I hadn't liked others like ZDL or Doom Lau
 This is build for my purposes and features will usually be added when I need/want them. I will, however, gladly take suggestions and implement them if possible within my lackluster skill level.
 
 # Downloading
-You can get prebuilt, Framework-Dependant Win64 bins from the Google Drive, as well as a premade port database file and the user manual. Due to limitations with WinForms, I am sadly unable to provide native Linux bins.
+You can get prebuilt, Framework-Dependant Win86 bins from the Google Drive, as well as a premade port database file and the user manual. Due to limitations with WinForms, I am sadly unable to provide native Linux bins.
 https://drive.google.com/drive/folders/1WFhlLlC_Ka0N-Fk6tTlCKcxksYwFRNg4?usp=sharing
 
 # Building
