@@ -151,6 +151,7 @@ namespace Doom_Loader
             // Start Process
             try
             {
+                // Code from some Stack Overflow answer. Unable to find it, however.
                 // Start the process with the info specified.
                 // Call WaitForExit and then the using statement will close.
                 using Process exeProcess = Process.Start(startInfo);
