@@ -6,6 +6,7 @@ using Doom_Loader.Properties;
 using System.Resources;
 using Doom_Loader;
 
+// Code taken from https://github.com/Lachee/discord-rpc-csharp
 public static class RPCClient
 {
     public static DiscordRpcClient client;
