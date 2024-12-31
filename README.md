@@ -9,6 +9,7 @@ You can get prebuilt, Framework-Dependant Win64 bins from the Google Drive, as w
 
 # Building
 No dependencies are required besides DiscordRichPresence from NuGet and its dependencies as well as WinForms and .NET 6.
-Open the solution in Visual Studio 2022 and edit the DiscordAPI value in the Resources file to your own API key. Although currently untested you could possibly leave this blank as well, just make sure to disable Discord RPC in the settings.
+Open the solution in Visual Studio 2022.
+Create a `Resources.resx` file in the `Properties` folder with a key called `DiscordApi` and put in your own Discord application ID for its value.
 
 Build the solution from VS2022 from there.
