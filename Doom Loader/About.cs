@@ -21,7 +21,7 @@ namespace Doom_Loader
 
         private void About_Load(object sender, EventArgs e)
         {
-            if (GetType().Assembly.GetName().Version.MinorRevision == 1) // If the version of CP1DL is a pre-release version
+            if (GetType().Assembly.GetName().Version.MinorRevision == 1) // If the version of Minty is a pre-release version
                 version.Text = "PRE-RELEASE Version " +
                     $"{GetType().Assembly.GetName().Version.Major}." +
                     $"{GetType().Assembly.GetName().Version.Minor}." +
