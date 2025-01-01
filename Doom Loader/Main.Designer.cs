@@ -258,7 +258,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.Control;
+            BackColor = Color.DimGray;
             ClientSize = new Size(289, 265);
             Controls.Add(groupBox4);
             Controls.Add(groupBox3);
@@ -268,13 +268,14 @@
             Controls.Add(settingsOpen);
             Controls.Add(portButton);
             Controls.Add(pwadManagerButton);
+            ForeColor = SystemColors.ControlText;
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(4, 3, 4, 3);
             MaximizeBox = false;
             Name = "Main";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "The Minty Launcher";
+            Text = "Crusty Quake Launcher";
             Load += AppDataInit;
             groupBox1.ResumeLayout(false);
             groupBox2.ResumeLayout(false);

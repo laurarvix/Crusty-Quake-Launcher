@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Doom_Loader
 {
-    public partial class extraCredits : Form
+    public partial class Davoth : Form
     {
-        public extraCredits()
+        public Davoth()
         {
             InitializeComponent();
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

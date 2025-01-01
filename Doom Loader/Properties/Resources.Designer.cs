@@ -61,7 +61,7 @@ namespace Doom_Loader.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 1270046140879995021.
+        ///   Looks up a localized string similar to 1323772701214507069.
         /// </summary>
         internal static string DiscordAPI {
             get {

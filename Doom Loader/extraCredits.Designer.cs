@@ -44,13 +44,14 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Location = new Point(8, 403);
             label1.Name = "label1";
-            label1.Size = new Size(148, 15);
+            label1.Size = new Size(149, 15);
             label1.TabIndex = 1;
             label1.Text = "Thomas' Beloved \"Doveth\"";
             // 
